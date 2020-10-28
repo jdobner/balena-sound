@@ -7,7 +7,6 @@ COPY snapserver.conf /etc/snapserver.conf
 COPY start.sh .
 RUN git clone https://github.com/badaix/snapweb.git snapweb
 RUN npm install --global --no-save typescript
-RUN cd snapweb && make
-COPY snapweb/dist /var/www
+RUN cd snapweb && make && mkdir -p /var/www && mv dist/* /var/www
 
 CMD [ "/bin/bash", "/usr/src/start.sh" ]
