@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add --hostID arg to Snapcast client startup
+      hash: 3a9bc469f1c0b5c00923a4a8ba83ace069bbf2d4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Mark Chester <mark@chesterfamily.org>
+        signed-off-by: Mark Chester <mark@chesterfamily.org>
+        Connects-to: '#332'
+        connects-to: '#332'
+      author: Mark Chester
+      nested: []
+  version: 3.1.12
+  date: 2020-10-29T18:39:28.981Z
+- commits:
     - subject: 'spotify: fix password woes'
       hash: f62fd91f7f928d68b8825206526de8530a04bc69
       body: |
